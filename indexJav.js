@@ -5,8 +5,8 @@ function loginCheck(){
     let userName = document.getElementById("userName").value;
     let password = document.getElementById("password").value;
     
-    let userNames = ["James","Aiden", "Ethan", "Nathan", "Jaiden"];
-    let passwords = ["123","234","345","456","678"];
+    let userNames = ["James","Aiden", "Ethan", "Nathan", "Jaiden", "William"];
+    let passwords = ["123","234","345","456","678", "999"];
 
     let isMatched = false;
 

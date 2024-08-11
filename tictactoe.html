@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Tic Tac Toe Table</title>
+
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+        <h2>Tictactoe table</h2>
+
+        <p id="turn">Player1</p>
+
+        <select>
+            <option value="3x3">3x3</option>
+            <option value="4x4">4x4</option>
+            <option value="5x5">5x5</option>
+        </select>
+
+        <table>
+            <tr>
+
+                <td id="1" class="content" onclick="changeColor(this)"></td>
+                <td id="2" class="content" onclick="changeColor(this)"></td>
+                <td id="3" class="content" onclick="changeColor(this)"></td>
+            </tr>
+
+            <tr>
+      
+                <td id="4" class="content" onclick="changeColor(this)"></td>
+                <td id="5" class="content" onclick="changeColor(this)"></td>
+                <td id="6" class="content" onclick="changeColor(this)"></td>
+            </tr>
+
+            <tr>
+                <td id="7" class="content" onclick="changeColor(this)"></td>
+                <td id="8" class="content" onclick="changeColor(this)"></td> 
+                <td id="9" class="content" onclick="changeColor(this)"></td>
+            </tr>
+
+        </table>     
+
+        <button class="leftSpace" onclick="reset()">Reset</button>
+
+
+    </body>
+
+    <script type="text/javascript" src="./javScript.js"></script>
+
+
+
+</html>
+
+
+
+
+

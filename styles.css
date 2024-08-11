@@ -1,0 +1,38 @@
+/* Place your CSS styles in this file */
+
+table{
+    width:  300px;
+    height: 150px;
+}
+th{
+    border: solid;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+td{
+    border: solid;
+    width: 150px;
+    height: 100px;   
+    text-align: center;     
+    font-weight: bold;     
+}
+
+.highlight{
+    background-color: gray;
+}
+
+.leftSpace{
+    margin-left: 30px;
+}
+
+.rightSpace{
+    margin-right: 140px;
+}
+
+td:hover{
+    background-color: yellow;
+    cursor:pointer;
+}
+
